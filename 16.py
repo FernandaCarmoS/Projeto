@@ -3,5 +3,5 @@ from math import trunc
 # O código 'trunc' elimina todos os números após a vírgula.
 print('CRIE UM PROGRAMA QUE LEIA UM NÚMERO REAL QUALQUER PELO TECLADO E MOSTRE NA TELA A SUA PORÇÃO INTEIRA. EX: DIGITE UM NÙMERO:6.127 – O NÙMERO 6.127 TEM A PORTA INTEIRA 6.')
 num = float(input('Digite um número real(Com pontos flutuantes)! - '))
-print('O número {} tem a porta inteira de {} !'.format(num,trunc(num)))
+print('O número {} tem a porta inteira de {} !'.format(num, int(num)))
 # Como importamos através do código from o trunc, nós não precisamos usar o math novamente no format.
